@@ -5,7 +5,7 @@
 :root{
     --color-background-section-presentation: #FCFCFC;
     --color-btn-presentation-up: #EFEFEF;
-    --color-red-hero-startup: #E60808;
+    --color-red-hero-startup: #db0808;
 }
 .sections-content{
     scroll-behavior: smooth;
@@ -34,7 +34,7 @@
 .section-presentation-title{
     font-size: 4rem;
     text-wrap: balance;
-    background: linear-gradient(to right, #ff00ff, #ff5f5f, #007eff);
+    background: rgb(187, 8, 8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
