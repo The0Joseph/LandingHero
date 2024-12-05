@@ -117,10 +117,60 @@
 .nav-item:hover::after{
     width: 100%;
 }
+.image-recuadro{
+    width: 400px;
+}
+.text-whatsapp{
+    width: 100%;
+}
 
 
-@media (mmin-witdh: 768px) {
-    .sections-content > section{
-        height: 100%;
+@media screen and (max-width: 1024px) {
+    .section-presentation {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-presentation-title {
+        font-size: 3rem;
+    }
+    .btnHero {
+        width: 70%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section-presentation-logo > img {
+        height: 50px;
+    }
+    .section-presentation-title {
+        font-size: 2.5rem;
+    }
+    .btnHero {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+    .image-recuadro{
+        width: 200px;
+    }
+    .text-whatsapp{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .sections-content > section {
+        height: auto;
+        padding: 20px;
+    }
+    .section-presentation-title {
+        font-size: 2rem;
+    }
+    .btnHero {
+        width: 100%;
+    }
+    
+    
+}
+
